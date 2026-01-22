@@ -21,8 +21,7 @@ export default {
         content: "Belay",
       },
       { property: "og:description", content: meta_description  },
-      // TODO
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.belaydev.com" },
       { property: "og:image", content: "Social-Static@2x.png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
@@ -100,16 +99,12 @@ export default {
   plugins: [
     "~/plugins/lazysizes.client.js",
     "~/plugins/vue-event-horizon.client.js",
-  //   {src: "~/plugins/vue-scrollto.client.js", ssr: false},
-  //   {src: "~/plugins/vue-select.client.js", ssr: false},
-  //   {src: "~/plugins/vue-body-scroll-lock.client.js", ssr: false},
   ],
 
 
   /*
    ** Nuxt.js dev-modules
    */
-   // TODO
   buildModules: [
     "@nuxtjs/style-resources"
   //   [
