@@ -1,6 +1,6 @@
 // /* 28 Cols */
 $cols: 28;
-$perc: (1 / $cols * 100%);
+$perc: (math.div(1, $cols) * 100%);
 
 /* Grid */
 @mixin grid {
@@ -11,5 +11,5 @@ $perc: (1 / $cols * 100%);
 }
 
 @function span($n) {
-  @return ($n / $cols * 100vw);
+  @return (math.div($n, $cols) * 100vw);
 }

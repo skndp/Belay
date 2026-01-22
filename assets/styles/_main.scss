@@ -288,7 +288,7 @@ Fade Transitions
     transform: translateY(40px);
   }
 }
-$delay: $speed-demon / 6;
+$delay: math.div($speed-demon, 6);
 
 .fade-enter-active {
   & > * {
