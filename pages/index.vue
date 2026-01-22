@@ -108,7 +108,6 @@ import About from '~/components/about';
 import PropertyTypes from '~/components/property-types';
 import Tagline from '~/components/tagline';
 import Footer from '~/components/footer';
-// import EmailCta from '~/components/email-cta';
 
 export default {
   components: {
@@ -116,13 +115,7 @@ export default {
     About,
     PropertyTypes,
     Tagline,
-    Footer,
-    // EmailCta,
+    Footer
   }
 }
 </script>
-
-<style lang="scss">
-@import "~/assets/styles/reset.scss";
-@import "~/assets/styles/app.scss";
-</style>

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos&display=swap');
-
 @font-face {
   font-family: 'LemondeLivreBold';
   src: url('https://use.typekit.net/wes8pxx.css');
@@ -24,7 +22,7 @@
       @media screen and (min-width: $min-vw) {
         font-size: calc(
           #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
-            math.div((100vw - #{$min-vw}), #{strip-unit($max-vw - $min-vw)})
+            ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
         );
       }
       @media screen and (min-width: $max-vw) {
@@ -51,16 +49,11 @@ h4{
 }
 
 h5 {
-  // font-family: $gotham-bold;
   font-family: $montessarat;
   font-weight: 700;
-  // letter-spacing: 0.025em;
-  // line-height:$h5-line-height;
-  // line-height: 1em;
 }
 
 h6{
-  // font-family: $gotham-bold;
   font-family: $montessarat;
   font-weight: 700;
   &.uppercased{
@@ -191,7 +184,6 @@ strong {
 
 input{
   line-height: 1em;
-  // font-family: $gotham-medium;
   font-family: $montessarat;
   font-weight: 500;
   @include fluid-type($min, $max, 12px, 16px);
@@ -234,8 +226,6 @@ HEADERS
 
     &.spread{
       line-height: 1.5em; 
-      // text-transform: uppercase;
-      // letter-spacing: 0.8em;
     }
   }
 }

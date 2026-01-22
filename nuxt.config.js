@@ -56,6 +56,10 @@ export default {
       { rel: "manifest", href: "/site.webmanifest" },
       { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#5700d1" },
       { rel: "shortcut icon", href: "/favicon.ico" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos&display=swap" }
+
     ],
     script: [
       {
@@ -95,12 +99,10 @@ export default {
     }
   },
 
-  // TODO
   plugins: [
     "~/plugins/lazysizes.client.js",
     "~/plugins/vue-event-horizon.client.js",
   ],
-
 
   /*
    ** Nuxt.js dev-modules
@@ -157,8 +159,11 @@ export default {
     // your settings here
     scss: [
       "~/assets/styles/_vars.scss",
+      "~/assets/styles/reset.scss",
       "~/assets/styles/_mixins.scss",
       "~/assets/styles/_grid.scss",
+      "~/assets/styles/_typography.scss",
+      "~/assets/styles/_main.scss",
     ],
   },
 

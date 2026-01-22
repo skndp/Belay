@@ -244,9 +244,7 @@ export default {
 
           label {
             color: $black;
-            font-family: $gotham-bold;
-            // font-size: 14px;
-            // line-height: 35px;
+            font-family: $montessarat;
             padding: 6px $margin-small;
           }
         }
@@ -257,10 +255,6 @@ export default {
           input {
             width: 100%;
             padding: 8px $margin-small;
-            // font-size: 16px;
-            // line-height: 35px;
-            // letter-spacing: 0.05em;
-            // font-family: $gotham-medium;
             background: none;
             color: $black;
             border: none;
@@ -278,11 +272,6 @@ export default {
         width: 100%;
         height: 100%;
         text-align: left;
-        // font-size: 10px;
-        // line-height: 35px;
-        // letter-spacing: 0.05em;
-        // font-family: $gotham-medium;
-        //text-transform: uppercase;
 
         p.subtext {
           margin: 0;
@@ -352,7 +341,7 @@ export default {
     .error {
       opacity: 0;
       transition: opacity $speed-demon ease;
-      font-family: $gotham-medium;
+      font-family: $montessarat;
       margin-top: $margin-small;
       display: inline-block;
       font-size: 12px;
