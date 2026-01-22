@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use "sass:string";
 
 // Colors
 $white: #fff;
@@ -59,5 +60,5 @@ $largest-screens:  '(min-width: 2000px)';
 
 /* Color function for SVG mixins */
 @function svgColorMaker($color) {
-  @return '%23' + str-slice('#{$color}', 2, -1);
+  @return '%23' + string.slice('#{$color}', 2, -1);
 }

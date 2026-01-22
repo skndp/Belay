@@ -189,15 +189,6 @@ export default {
     extend(config, ctx) {
       const { loaders: { vue } } = ctx;
 
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: "pre",
-          test: /\.(js|vue)$/,
-          loader: "eslint-loader",
-          exclude: /(node_modules)/,
-        });
-      }
-
       vue.transformAssetUrls.img = ["data-src", "src"];
       vue.transformAssetUrls.source = ["data-srcset", "srcset"];
     },

@@ -17,8 +17,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~/assets/styles/module_base.scss';
-
 $iconSize: 22px;
 
 ul.socials {
