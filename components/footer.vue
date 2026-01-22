@@ -61,7 +61,7 @@
       </div>
       <div class="column-bottom">
         <div class="policies">
-          <p class="copyright mega-small">Copyright &copy; 2021 Belay Development. All Rights Reserved.</p>
+          <p class="copyright mega-small">Copyright &copy; {{ new Date().getFullYear() }} Belay Development. All Rights Reserved.</p>
         </div>
       </div>
 
