@@ -1,14 +1,6 @@
 <template>
   <section class="carousel">
-    <Header
-      class="logo"
-      :img1="{
-        src: 'header/belay-logo-white.svg',
-        alt: 'The Belay logo in white',
-        width: '183',
-        height: '87',
-      }"
-    />
+    <Header class="logo" />
     <div class="background-wrapper">
       <div class="background-inner">
         <div class="background-transition" :class="transitionClass">
@@ -20,14 +12,11 @@
                 :key="i"
                 :class="{ current: i === current }"
               >
-               <!-- <ResponsiveImage :src="`${image.src}`" :alt="`${image.alt}`" lazy class="carousel-image" /> -->
                 <img
                   class="carousel-image"
                   :src="require(`~/static/images/${image.src}`)"
                   :alt="image.alt"
                 />
-                <!-- :style="{ paddingBottom: (image.height / image.width) * 100 + '%' }" -->
-                <!-- :style="{ 'object-position': image.objectPosition }" -->
               </div>
             </div>
           </div>
@@ -47,8 +36,8 @@
       :key="i"
       :class="{ current: i === current }"
     >
-      <p class="hotel-title spread">{{ image.title }}</p>
-      <p class="hotel-date spread">{{ image.date }}</p>
+      <p class="title spread">{{ image.title }}</p>
+      <p class="anchor spread">&mdash;</p>
     </div>
   </section>
 </template>
@@ -97,7 +86,7 @@ $aspect-ratio: calc(1620px / 2880px);
 .carousel {
   position: relative;
   width: 100%;
-  height: calc(56.25vw + 200px);
+  height: calc(56.25vw + 180px);
   z-index: 4;
 
   .logo {
@@ -106,7 +95,8 @@ $aspect-ratio: calc(1620px / 2880px);
     align-items: center;
     position: relative;
     z-index: 5;
-    height: 120px;
+    height: 100px;
+    padding: 20px 0;
     background-color: $deep-blue;
   }
 
@@ -118,7 +108,7 @@ $aspect-ratio: calc(1620px / 2880px);
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: calc(28.125vw + 105px);
+    margin-top: calc(28.125vw + 85px);
 
     &.left {
       left: 0;
@@ -135,22 +125,20 @@ $aspect-ratio: calc(1620px / 2880px);
     transition: opacity 700ms;
     z-index: 6;
 
-    .hotel-title {
+    p.title, p.anchor {
       position: absolute;
       bottom: 0%;
       left: span(2);
       height: 80px;
       line-height: 80px;
       color: $white;
+      font-size: 18px;
     }
 
-    .hotel-date {
-      position: absolute;
-      bottom: 0%;
+    p.anchor {
+      left: unset;
       right: span(2);
-      height: 80px;
-      line-height: 80px;
-      color: $white;
+      text-align: right;
     }
 
     &.current {
@@ -248,7 +236,7 @@ $aspect-ratio: calc(1620px / 2880px);
       cursor: pointer;
       top: 0;
       right: span(2);
-      margin-top: calc(28.125vw + 106px);
+      margin-top: calc(28.125vw + 85px);
 
       &.left {
         right: auto;
@@ -273,7 +261,7 @@ $aspect-ratio: calc(1620px / 2880px);
       align-items: center;
       position: absolute;
       z-index: 5;
-      height: 150px;
+      height: 130px;
       left: 0;
       right: 0;
       top: 0;

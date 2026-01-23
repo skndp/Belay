@@ -17,7 +17,7 @@
     <div class="text-box">
       <h3 class="title-upper">Our Angle</h3>
       <h6 class="subtitle spread">About Us</h6>
-      <p class="text">Belay is a full-service real estate development company based in Colorado. With more than 35 years of experience in construction, contracting, and design, our skillful team can execute on a wide range of project types. From shepherding the entire development process to site acquisition, asset management and sale—we bring a wealth of experience and a grounded perspective to each and every project.</p>
+      <p class="text">Belay is a full-service real estate development and owner&apos;s representative company based in Colorado. With more than 18 years of experience in construction, contracting, and development, our skillful team can execute on a wide range of project types. From shepherding the entire development and construction processes to site acquisition, asset management and sale—we bring a wealth of experience and a grounded perspective to each and every project.</p>
       <p class="text">We tailor our approach to meet the specific goals of our clients and investors, leveraging our vast network of highly-skilled industry partners for strategic collaboration and integration.</p>
       <p class="text">Above all, we create exceptional value for our partners by delivering high-performing assets that enrich our communities.</p>
     </div>
