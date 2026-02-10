@@ -3,7 +3,7 @@
     <Carousel
       :images="[
         {
-          src: 'carousel/flora.jpg',
+          src: 'carousel/_0002_FLORA_1.jpg',
           alt: 'A picture of a commercial building',
           width: '2880',
           height: '1620',
@@ -13,44 +13,205 @@
           date: '2023'
         },
         {
-          src: 'carousel/pop_denver.jpg',
+          src: 'carousel/_0003_FLORA_2.jpg',
           alt: 'A picture of a commercial building',
           width: '2880',
           height: '1620',
           className: 'first',
-          objectPosition: '50% 100%',
-          title: 'POP DENVER',
+          objectPosition: '50% 60%',
+          title: 'FLORA',
           date: '2023'
         },
         {
-          src: 'carousel/tennyson.jpg',
+          src: 'carousel/_0004_FLORA_3.jpg',
           alt: 'A picture of a commercial building',
           width: '2880',
           height: '1620',
           className: 'first',
-          objectPosition: '50% 100%',
-          title: '4353 TENNYSON',
+          objectPosition: '50% 60%',
+          title: 'FLORA',
           date: '2023'
         },
         {
-          src: 'carousel/sunny_side.jpg',
+          src: 'carousel/_0010_LUMINA_01.jpg',
           alt: 'A picture of a commercial building',
           width: '2880',
           height: '1620',
           className: 'first',
-          objectPosition: '50% 50%',
-          title: 'SUNNYSIDE FLATS',
-          date: '2025'
+          objectPosition: '50% 60%',
+          title: 'LUMINA',
+          date: '2023'
         },
         {
-          src: 'carousel/condor.jpg',
+          src: 'carousel/_0011_LUMINA_02.jpg',
           alt: 'A picture of a commercial building',
           width: '2880',
           height: '1620',
           className: 'first',
-          objectPosition: '50% 100%',
-          title: 'CONDOR',
-          date: '2020'
+          objectPosition: '50% 60%',
+          title: 'LUMINA',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0012_LUMINA_03.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'LUMINA',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0018_Sunnyside Flats_01.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Sunnyside Flats',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0019_Sunnyside Flats_02.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Sunnyside Flats',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0020_Sunnyside Flats_03.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Sunnyside Flats',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0007_Framework_01.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Framework',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0008_Framework_02.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Framework',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0009_Framework_03.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Framework',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0013_POP_01.jpeg.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'POP',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0014_POP_02.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'POP',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0015_POP_03.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'POP',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0000_4353 Tennyson_01.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: '4353 Tennyson',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0001_4353 Tennyson_02.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: '4353 Tennyson',
+          date: '2023'
+        },
+
+        {
+          src: 'carousel/_0005_Feltraiger_01.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Feltraiger',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0006_Feltraiger_02.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'Feltraiger',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0016_STK_01.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'STK',
+          date: '2023'
+        },
+        {
+          src: 'carousel/_0017_STK_02.jpg',
+          alt: 'A picture of a commercial building',
+          width: '2880',
+          height: '1620',
+          className: 'first',
+          objectPosition: '50% 60%',
+          title: 'STK',
+          date: '2023'
         }
       ]"
     />
