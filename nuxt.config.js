@@ -168,7 +168,6 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  //ADD THIS TO USE NETLIFY FORMS
   build: {
     html: {
       minify: {
@@ -187,6 +186,8 @@ export default {
         },
         importLoaders: 1,
       },
+      scss: { implementation: require("sass") },
+      sass: { implementation: require("sass") }
     },
     /*
      ** You can extend webpack config here
